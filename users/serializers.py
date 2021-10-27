@@ -5,4 +5,4 @@ class TinyUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ("superhost","username")
+        fields = ("superhost","username","first_name","last_name","avatar","id",)
